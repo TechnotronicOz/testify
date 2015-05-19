@@ -268,7 +268,7 @@ Installation
 
 To install Testify, use `go get`:
 
-    go get github.com/stretchr/testify
+    go get -u gopkg.in/stretchr/testify.v1
 
 This will then make the following packages available to you:
 
@@ -298,9 +298,17 @@ func TestSomething(t *testing.T) {
 Staying up to date
 ==================
 
-To update Testify, use `go get -u`:
+To update Testify, select your desired version use `go get -u`:
 
-    go get -u github.com/stretchr/testify
+    go get -u gopkg.in/stretchr/testify.v[version]
+    ex: go get -u gopgk.in/stretchr/testify.v1, go get -u gopkg.in/stretchr/testify/v1.1
+
+------
+
+Version History
+===============
+
+   * 1.0 - New package versioning strategy adopted.
 
 ------
 
