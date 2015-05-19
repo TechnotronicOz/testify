@@ -5,6 +5,9 @@ Testify - Thou Shalt Write Tests
 
 Go code (golang) set of packages that provide many tools for testifying that your code will behave as you intend.
 
+Version:
+  * 0.1.0 - Updated assert.Equal to be more generic by reverting changes to Equal https://github.com/stretchr/testify/commit/e22aedd37671fb115be6c0c25129c405cb575cfd
+
 Features include:
 
   * [Easy assertions](#assert-package)
@@ -16,13 +19,13 @@ Get started:
 
   * Install testify with [one line of code](#installation), or [update it with another](#staying-up-to-date)
   * For an introduction to writing test code in Go, see our [blog post article](http://blog.stretchr.com/2014/03/05/test-driven-development-specifically-in-golang/) or check out  http://golang.org/doc/code.html#Testing
-  * Check out the API Documentation http://godoc.org/github.com/stretchr/testify
+  * Check out the API Documentation http://godoc.org/github.com/technotronicoz/testify
   * To make your testing life easier, check out our other project, [gorc](http://github.com/stretchr/gorc)
   * A little about [Test-Driven Development (TDD)](http://en.wikipedia.org/wiki/Test-driven_development)
 
 
 
-[`assert`](http://godoc.org/github.com/stretchr/testify/assert "API documentation") package
+[`assert`](http://godoc.org/github.com/technotronicoz/testify/assert "API documentation") package
 -------------------------------------------------------------------------------------------
 
 The `assert` package provides some helpful methods that allow you to write better test code in Go.
@@ -38,7 +41,7 @@ package yours
 
 import (
   "testing"
-  "github.com/stretchr/testify/assert"
+  "github.com/technotronicoz/testify/assert"
 )
 
 func TestSomething(t *testing.T) {
@@ -74,7 +77,7 @@ package yours
 
 import (
   "testing"
-  "github.com/stretchr/testify/assert"
+  "github.com/technotronicoz/testify/assert"
 )
 
 func TestSomething(t *testing.T) {
@@ -191,7 +194,7 @@ An example suite is shown below:
 // Basic imports
 import (
     "testing"
-    "github.com/stretchr/testify/assert"
+    "github.com/technotronicoz/testify/assert"
     "github.com/stretchr/testify/suite"
 )
 
@@ -272,7 +275,7 @@ To install Testify, use `go get`:
 
 This will then make the following packages available to you:
 
-    github.com/stretchr/testify/assert
+    github.com/technotronicoz/testify/assert
     github.com/stretchr/testify/mock
     github.com/stretchr/testify/http
 
@@ -283,7 +286,7 @@ package yours
 
 import (
   "testing"
-  "github.com/stretchr/testify/assert"
+  "github.com/technotronicoz/testify/assert"
 )
 
 func TestSomething(t *testing.T) {
