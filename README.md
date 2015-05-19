@@ -1,12 +1,12 @@
 Testify - Thou Shalt Write Tests
 ================================
 
-[![Build Status](https://travis-ci.org/technotronicoz/testify.svg)](https://travis-ci.org/technotronicoz/testify)
+[![Build Status](https://travis-ci.org/TechnotronicOz/testify.svg)](https://travis-ci.org/TechnotronicOz/testify)
 
 Go code (golang) set of packages that provide many tools for testifying that your code will behave as you intend.
 
-Version:
-  * 0.1.0 - Updated assert.Equal to be more generic by reverting changes to Equal https://github.com/stretchr/testify/commit/e22aedd37671fb115be6c0c25129c405cb575cfd
+Version History:
+  * 0.1.0 - Updated assert.Equal to be more generic by reverting breaking changes to Equal https://github.com/stretchr/testify/commit/e22aedd37671fb115be6c0c25129c405cb575cfd
 
 Features include:
 
